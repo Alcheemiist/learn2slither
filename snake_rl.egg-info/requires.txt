@@ -1,0 +1,7 @@
+numpy
+pygame
+pydantic
+
+[dev]
+pytest
+flake8

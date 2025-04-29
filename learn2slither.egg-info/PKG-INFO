@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: learn2slither
+Version: 0.1.0
+Summary: Snake RL project – Learn2Slither
+Author: Alchemist
+Author-email: Elmahdi Elaazmi <you@example.com>
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: pygame
+Requires-Dist: pydantic
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Dynamic: author
+Dynamic: requires-python

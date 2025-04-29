@@ -1,0 +1,8 @@
+numpy
+pygame
+pydantic
+
+[dev]
+pytest
+flake8
+pre-commit

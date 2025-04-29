@@ -1,0 +1,5 @@
+numpy           # board math
+pydantic        # typed configs
+pygame          # GUI (swap for tkinter if you prefer)
+pytest          # tests
+flake8          # lint
