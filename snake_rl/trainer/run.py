@@ -61,7 +61,8 @@ class Runner:
             while not self.board.done:
                 state = encode_state(self.board)
                 a = self.agent.choose_action(state, explore=not self.dontlearn)
-                next_state, reward, done, _ = self.board.step(a)
+                _, reward, done, _ = self.board.step(a)
+                next_state = encode_state(self.board)
                 if not self.dontlearn:
                     self.agent.learn(state, a, reward, next_state, done)
                 total_steps += 1
